@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="im/ima1.jpg" alt="no image found" />
+    <img src="im/ima1.jpg" alt="no image found" width="50%" />
+    <img
+      src="im/ima1.jpg"
+      alt="no image found"
+      width="50px"
+      height="50px"
+      hidden
+    />
+    <hr />
+    <figure>
+      <img src="im/ima1.jpg" alt="no" srcset="" />
+      <figcaption>image</figcaption>
+    </figure>
+    <hr />
+    <br />
+    <picture>
+      <source srcset="im/ima1.jpg" media="(min-width: 800px)" />
+      <source srcset="im/image3.jpg" alt="no" media="(max-width: 799px)" />
+      <img src="im/ima1.jpg" alt="nope" />
+    </picture>
+    
+  </body>
+</html>
