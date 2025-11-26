@@ -38,5 +38,53 @@
       <source srcset="im/image3.jpg" alt="no" media="(max-width: 799px)" />
       <img src="im/ima1.jpg" alt="nope" />
     </picture>
+    <img
+      src="http://jaced.com/blogpix/2007/trisquarecircle/002.gif"
+      usemap="#shapes"
+    />
+    <map name="shapes">
+      <area
+        shape="triangle"
+        coords="79,6,5,134,153,134"
+        alt="Triangle"
+        target="_blank"
+        href="https://en.wikipedia.org/wiki/triangle"
+      />
+      <area
+        shape="rectangle"
+        coords="177,6,306,134"
+        alt="Rectangle"
+        target="_blank"
+        href="https://en.wikipedia.org/wiki/rectangle"
+      />
+      <area
+        shape="circle"
+        coords="397,71,65"
+        alt="Circle"
+        target="_blank"
+        href="https://en.wikipedia.org/wiki/circle"
+      />
+    </map>
+    <iframe
+      style="border: none; background-color: orange"
+      width="400"
+      height="400"
+      title="Iframe Example"
+    ></iframe>
+    <iframe
+      style="border: 1px solid red"
+      width="800"
+      height="600"
+      name="iframe_target"
+      title="Iframe Example"
+    ></iframe>
+    <a href="https://en.wikipedia.org" target="iframe_target">Open Wikipedia</a>
+    <audio controls>
+      <source src="Mallika Gandha.mp3" type="audio/mpeg" />
+    </audio>
+    <video width="500" height="700" controls>
+      <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4" />
+    </video>
+    <progress max="100" value="70"></progress>
   </body>
 </html>
